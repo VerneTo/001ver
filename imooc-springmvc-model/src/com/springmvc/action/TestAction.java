@@ -1,4 +1,4 @@
-package com.springmvc.action;
+﻿package com.springmvc.action;
 
 import java.io.IOException;
 
@@ -29,11 +29,9 @@ public class TestAction {
 	public @ResponseBody Object ajax(String name) throws IOException {
 		return name;
 	}
-	
-<<<<<<< HEAD
-	//这是新的测试asd
-=======
->>>>>>> parent of 5b2970a... 新增的注释
+
+	//这是新的测试
+
 	@RequestMapping(params = "operate=mtd1")
 	public void mtd1(HttpServletResponse response,HttpServletRequest request,HttpSession session) throws IOException {
 		String param = request.getParameter("param");
