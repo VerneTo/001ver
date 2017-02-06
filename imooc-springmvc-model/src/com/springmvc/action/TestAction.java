@@ -30,7 +30,7 @@ public class TestAction {
 		return name;
 	}
 	
-	//这是新的测试方法
+	//这是新的测试asd
 	@RequestMapping(params = "operate=mtd1")
 	public void mtd1(HttpServletResponse response,HttpServletRequest request,HttpSession session) throws IOException {
 		String param = request.getParameter("param");
