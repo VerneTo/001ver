@@ -30,7 +30,10 @@ public class TestAction {
 		return name;
 	}
 	
+<<<<<<< HEAD
 	//这是新的测试asd
+=======
+>>>>>>> parent of 5b2970a... 新增的注释
 	@RequestMapping(params = "operate=mtd1")
 	public void mtd1(HttpServletResponse response,HttpServletRequest request,HttpSession session) throws IOException {
 		String param = request.getParameter("param");
